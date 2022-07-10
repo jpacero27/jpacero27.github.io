@@ -1,0 +1,55 @@
+body{
+  background-color: lightgray;
+}
+ul{
+  list-style-type:none;
+  align:center;
+}
+.p1
+{
+  font-family: arial;
+  color:hotpink;
+}
+.p2{
+  color:pink;
+  font-family:Courier;
+}
+.p3
+{
+  font-family:Corsiva;
+  color:lightpink;
+}
+
+.pine{
+  text-align: center;
+}
+.box{
+  border:2px solid;
+  border-color: orange;
+  border-radius: 5px;
+  float: left;
+  margin: 3%;
+
+}
+.img1,.img2,.img3{
+  width:300px;
+  height: 150px;
+}
+
+.img2{
+  filter:invert(100%);
+
+}
+.img3{
+  filter: sepia(100%);
+
+}
+a{
+  text-align: center;
+}
+
+}
+/* .i{
+  width:200px;
+  height:100px;
+} */
