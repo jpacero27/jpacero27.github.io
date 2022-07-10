@@ -5,6 +5,21 @@ ul{
   list-style-type:none;
   align:center;
 }
+.p1
+{
+  font-family: arial;
+  color:hotpink;
+}
+.p2{
+  color:pink;
+  font-family:Courier;
+}
+.p3
+{
+  font-family:Corsiva;
+  color:lightpink;
+}
+
 .pine{
   text-align: center;
 }
@@ -17,7 +32,7 @@ ul{
 
 }
 .img1,.img2,.img3{
-  width:450px;
+  width:400px;
   height: 150px;
 }
 
