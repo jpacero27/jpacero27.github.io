@@ -13,11 +13,11 @@ ul{
   border-color: orange;
   border-radius: 5px;
   float: left;
-  margin: 2%;
+  margin: 3%;
 
 }
 .img1,.img2,.img3{
-  width:200px;
+  width:325px;
   height: 150px;
 }
 
