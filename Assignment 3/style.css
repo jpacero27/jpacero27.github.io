@@ -44,9 +44,9 @@
   /* border:2px solid blue; */
   position: absolute;
   top:45.2%;
-  left:49.6%;
+  left:50%;
   transform-origin: left;
-  animation: timeMoving 6s infinite; 
+  animation: timeMoving 6s infinite;
 }
 .firsthand img{
   width: 90%;
@@ -61,7 +61,7 @@
   top:45%;
   left:50%;
   transform: rotate(270deg);
-  animation: timeMoving 60s infinite;
+  /* animation: timeMoving 60s infinite; */
   /* align:center; */
   transform-origin:left;
 }
