@@ -24,11 +24,11 @@
 /* clock */
 
 .clockbox{
-  width: 30%;
-  height: 45%;
+  width: 20%;
+  height: 35%;
   /* border: 2px solid yellow; */
   top: 2%;
-  right: 50%;
+  right: 65%;
   position: absolute;
   background-color: rgba(0, 200, 0, 0.5);
   border-radius: 50%;
