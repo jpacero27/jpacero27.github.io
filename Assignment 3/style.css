@@ -24,9 +24,9 @@
 /* clock */
 
 .clockbox{
-  width: 20%;
+  width: 18%;
   height: 35%;
-  /* border: 2px solid yellow; */
+   /* border: 2px solid yellow;  */
   top: 2%;
   right: 65%;
   position: absolute;
@@ -61,7 +61,7 @@
   top:45%;
   left:50%;
   transform: rotate(270deg);
-  /* animation: timeMoving 60s infinite; */
+ animation: timeMoving 60s infinite; 
   /* align:center; */
   transform-origin:left;
 }
