@@ -1,0 +1,75 @@
+.parent{
+  background-image: url('images/nyc1.jpg');
+  background-size: 100% 100%;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex: auto;
+  /* border: 3px solid red; */
+  /* display:flex;
+  flex: auto; */
+}
+
+.child{
+  width: 40%;
+  height: 15%;
+  position: absolute;
+  background-color: rgba(250, 1, 0, 0.5);
+  border: 2px solid red;
+  float: left;
+  right: 5%;
+  bottom: 50%;
+  overflow: auto;
+}
+/* clock */
+
+.clockbox{
+  width: 30%;
+  height: 40%;
+  /* border: 2px solid yellow; */
+  top: 2%;
+  right: 50%;
+  position: absolute;
+  background-color: rgba(0, 200, 0, 0.5);
+  border-radius: 50%;
+}
+.clockbox img{
+  width: 100%;
+  height: 100%;
+}
+
+.firsthand{
+  width: 40%;
+  height: 10%;
+  /* border:2px solid blue; */
+  position: absolute;
+  top:45%;
+  left:49.4%;
+  transform-origin: left;
+  animation: timeMoving 6s infinite;
+}
+.firsthand img{
+  width: 90%;
+  height: 100%;
+}
+
+.secondhand{
+  width: 30%;
+  height: 10%;
+  /* border:2px solid pink; */
+  position: absolute;
+  top:45%;
+  left:50%;
+  transform: rotate(270deg);
+  animation: timeMoving 60s infinite;
+  /* align:center; */
+  transform-origin:left;
+}
+.secondhand img{
+  width: 90%;
+  height: 100%;
+}
+@keyframes timeMoving {
+0%{transform: rotate(0deg)}
+100%{transform: rotate(360deg)}
+}
