@@ -25,7 +25,7 @@
 
 .clockbox{
   width: 30%;
-  height: 40%;
+  height: 45%;
   /* border: 2px solid yellow; */
   top: 2%;
   right: 50%;
@@ -39,14 +39,14 @@
 }
 
 .firsthand{
-  width: 40%;
+  width: 37%;
   height: 10%;
   /* border:2px solid blue; */
   position: absolute;
-  top:45%;
-  left:49.4%;
+  top:45.2%;
+  left:49.6%;
   transform-origin: left;
-  animation: timeMoving 6s infinite;
+  animation: timeMoving 6s infinite; 
 }
 .firsthand img{
   width: 90%;
