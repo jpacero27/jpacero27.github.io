@@ -38,18 +38,18 @@ margin-right: 5%;
 
 
 .displaybox{
-  width: 30%;
+  width: 20%;
   height: 75%;
   border: 2px solid red;
-  margin-right: 8%;
-  margin-left:8%;
-  margin-top: 5%;
+  margin-right: 13%;
+  margin-left:13%;
+  margin-top: 2%;
   align-content: center;
   float: left;
   text-align: center;
 }
 .photobox{
-  width: 70%;
+  width: 60%;
   height: 50%;
   /* border: 2px solid hotpink; */
   margin-top:3%;
@@ -176,13 +176,12 @@ margin-right: 5%;
   color: white;
 }
 .clickbox2{
-  padding: 5%;
+  padding: 2%;
   border-radius: 10px;
   background-color: pink;
   text-decoration:none;
-  margin-right: 45%;
+  margin-right: 50%;
   color: white;
-
   float: right;
 }
 .exit{
