@@ -1,17 +1,9 @@
 
-
 let  randomNum=Math.trunc(Math.random()*101);
 console.log(randomNum);
-
 const checkBtn=document.querySelector('.checkButton');
-console.log(checkBtn);
-
 const reset=document.querySelector('.b2');
-console.log(reset);
-
 const tryA=document.querySelector('.tryAgain');
-console.log(tryA);
-
 document.querySelector('.b2').addEventListener('click', function(){
     window.location.reload();
     // return false;
@@ -86,8 +78,6 @@ const guessbox=document.querySelector('.guessbox');
     innerP.textContent=("Don't give up and Try again. You can win next Time.");
     yourScore.textContent=(`My number was: ${randomNum}` );
     tryA.style.display="block";
-    console.log(`what's in current ${current}`);
-    console.log(`what's in bestS ${bestS}`);
     bestS=0; 
   }
   function eraseHistory(arr) 
@@ -97,11 +87,9 @@ const guessbox=document.querySelector('.guessbox');
     }
   }
   function youWin()
-  {
-    //highScore+=1;            
-    current+=1;////////////////////////////////////FIX 
+  {         
+    current+=1;
     bestS=recordHighScore(current);
-    console.log(bestS);
     hS.textContent=(`High Score: ${bestS}`);
     pic.src="images/won2.png";
     topmsg.style.display='block';
@@ -204,7 +192,6 @@ tryA.addEventListener('click', function()
   uInput.ariaPlaceholder='Guess a number';
   msg.textContent='Guess a number';      
   bestS=recordHighScore(current);     
-  console.log(bestS);
   hS.textContent=(`High Score: ${bestS}`); 
   pic.src="images/guy1.png";
   box.style.display="block";
