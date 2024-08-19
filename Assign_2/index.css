@@ -1,0 +1,130 @@
+body{
+    height: 1200px;
+    width: 100%;
+    position:absolute;
+    /* border: 2px solid red; */
+    background-color: aquamarine;
+}
+.mainBox{
+    /* width: 60%;
+    height:60%; */
+    min-height: 300px;
+    max-height: 1000px;
+    position: fixed;
+    justify-content: center;
+    /* border: 5px solid blueviolet; */
+    min-width: 300px;
+    max-width: 400px;
+    background-color:rgb(37, 50, 50);
+    font-family:Arial;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mainChoiceBox{
+    height: 40%;
+    width: 78%;
+    display: flex;
+    background-color: gray;
+    margin-top: 25px;
+    justify-content: center;
+    min-width: 75%;
+    max-width: 80%;
+    position: relative;
+    left:10%;
+    
+}
+.choiceBox1, .choiceBox2{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    font-family:Arial;
+    font-size: medium;
+    font-weight: bold;
+    color:white;
+    display: grid;
+    place-items: center;
+    padding: 2%;
+    opacity: 40%;
+}
+.choiceBox1{
+    align-self: left;
+}
+.choiceBox2{
+   align-self: right;
+}
+.loginBox{
+    height: 110%;
+    width: 80%;
+    /* border: 5px solid yellow; */
+    justify-content:center;
+    align-self: center;
+    margin-left:4%;
+    margin-top: 4%;
+    justify-content: space-between;
+}
+.submit{
+    height: 18%;
+    width: 75%;
+    /* border: 5px solid orange; */
+    justify-content: center;
+    margin-left:10%;
+    background-color: green;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    font-size:90%;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+.choiceBox1:hover, .choiceBox2:hover{
+    background-color: green;
+    color:black;
+    opacity: 70%;
+}
+/* Box that contains the "Sign Up for Free */
+.smallerBox{
+    width: 52%;
+    height: 15%;
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+    /* border: 2px dotted purple; */
+    margin-left: 25%;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 4%;
+}
+/*textboxes   */
+input{
+    display: inline-block;
+    margin-left: 10px;
+    width: 40%;
+    min-width: 40%;
+    max-width: 60%;
+    height: 15%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    background-color:rgb(37, 50, 50);
+    box-sizing: border-box;
+    /* justify-content: space-between; */
+    color: white;
+    border: 1px solid white;
+    margin-left: 8%;
+}
+.long{
+    min-width: 95%;
+    max-width: 100%;
+}
+input::placeholder {
+    color: lightgray; 
+    opacity: 1;
+}
+.smaller{
+    width: 41%;
+}
+footer{
+    display: flexbox;
+    flex-direction: row;
+}
