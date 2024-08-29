@@ -1,0 +1,149 @@
+.bmsgimg{
+    width: 34%;
+    height: 75%;
+    /* border: 2px solid red; */
+    margin-left:7%;
+    margin-top: 7%;
+    float: left;
+  }
+  .bmsgimg img{
+    height: 100%;
+    width: 100%;
+  }
+  .minidiv{
+    width: 100%;
+    height: 2%;
+    float: left;
+    /* border: 2px solid orange; */
+  }
+
+  .biggermsgbox{
+    height: 65%;
+    width: 100%;
+    /* border: 2px solid yellow; */
+  }
+
+  .undermsgbox{
+    width: 99%;
+    height: 34%;
+    padding-bottom: 1%;
+    /* border:2px solid plum; */
+    background-color:lightgray;
+    margin: auto;
+    padding: 1px;
+    text-align: center;
+    display: block;
+  }
+  .txtmsgbox{
+    width: 48%;
+    height: 85%;
+    text-align: center;
+    float: right;
+    margin-top: 2%;
+    margin-right: 8%;
+    /* border: 2px solid red; */
+    overflow: auto;
+  }
+
+  
+  .mdlwindow{
+      opacity: 0;
+      pointer-events: none;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      /* border: 2px solid red; */
+  }
+  
+  .mdlwindow{
+        background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .mdlwindow:target{
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .mdlwindow2:target{
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .msgbox{
+    width: 35%;
+    height: 400px;
+    margin-top:10% ;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid blue; */
+    top:20px;
+    min-width: 350px;
+    max-width: 35%;
+  }
+  .msgbox{
+    background-color: white;
+  }
+
+  .msgdiv{
+    width: 100%;
+    height: 10%;
+    color: black;
+    font-size: 30px;
+  
+    /* text-align: center; */
+  }
+  .msgdiv{
+      background-color: white;
+  }
+  .minidiv{
+    padding-bottom: 15px;
+  }
+  .msg2div{
+    background-color: darkturquoise;
+  }
+  
+  .msgdiv2, .msgdiv2a{
+    width: 90%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    /* top:50%; */
+    margin-top:2%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    overflow: hidden;
+  }
+  .exit{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    /* border:2px solid lightgreen; */
+    float: right;
+    padding-right:1% ;
+    font-style: courier;
+    font-size: 20px;
+  }
+
+  /* LOGIN MODULE */
+
+  .mainBox{
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* border: 2px solid red; */
+}
+
+.mainBox{
+      background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.mainBox:target{
+  opacity: 1;
+  pointer-events: auto;
+}

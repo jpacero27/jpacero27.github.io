@@ -1,0 +1,187 @@
+body {
+    height: 100vh;
+    width: auto;   
+    display: flex;
+    flex-direction: column;    
+}
+
+.firstMain{
+    height: 100%;
+    width: 100%;
+    /* border: 8px solid brown; */
+}
+
+.wordBox{
+    height: 40%;
+    /* float: left; */
+    color: white;
+    font-size: larger;
+    font-style: italic;
+    /* border: 2px solid saddlebrown; */
+    min-width: 5%;
+    max-width: 20%;
+    margin-top: 120px;
+    color: antiquewhite;
+    padding: 1px;
+    /* margin-right: 10px; */
+}
+
+.firstBox{
+    height: 45%;
+    background-size: cover; 
+    background-position: center;
+    align-items: stretch;
+    background-image: url("images/img4.jpg");
+}
+.firstBox,.secondBox{
+    width: auto;
+    background-position: 0%;
+    background-size:cover;
+    text-align: center; 
+    padding-bottom: 2%;
+}
+
+
+/* contains nav bar and logo */
+.longbox{
+    width: 100%;
+    height: 10%;
+    color: aliceblue; 
+    /* border: 2px solid pink; */
+}
+.smallerLongBox{
+    width: 18%;
+    height: 90%;
+    float: left;
+    font-size: large;
+    display: grid;
+    margin-top: 5px;
+}
+nav{
+    width: 40px; 
+    height: 20px;
+    float: right;
+    padding: 0;
+}
+.secondBox{
+    height:auto;
+    background-color:rgb(229, 28, 128);
+    display:flex;
+    flex-wrap:wrap;
+}
+.mainPic{
+width: 100%;
+height: 100%;
+object-fit:cover;
+min-height: fit-content;
+max-height: fit-content;
+/* border: 10px solid aqua; */
+/* margin-right: 100px; */
+}
+.miniBox1{
+margin-left: 12%;
+margin-top: 3%;
+width: 18%;
+height: 70%;
+overflow: auto;
+justify-content: center;
+align-items: center; 
+max-width: 45vh;
+min-width: 27vh;
+padding-bottom: 3%;
+/* border: 10px solid pink; */
+}
+.imgBox{
+/* border: 2px solid white; */
+margin-top: 5%;
+margin-left: 13%;
+width: 75%;
+height: 200px;
+min-width: 70%;
+max-width: fit-content;
+/* align-self:auto;
+align-items: center;
+align-content: center; */
+}
+
+.img1,.img2,.img3{
+width:100%;
+height:100%;
+}
+.miniBox1 { background-color:rgb(69, 244, 244);
+ }
+.textBox{
+    margin-top: 5%;
+    margin-left: 8%;
+    width:80%;
+    height:30%; 
+    overflow: auto;
+    place-self: center;
+    text-align: center;
+}
+
+footer {
+    background-color:black;
+    text-align: center;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .firstMain {
+    flex: 1; 
+    width: 100%;
+}
+.p1{
+    color: white;
+    font-size: x-large;
+    display: block;
+    width: 100%;
+}
+.extraBox{
+    width: 10%;
+    height: 100%;
+    /* border:2px solid blue; */
+    float: right;
+    padding-right: 20px;
+}
+
+.login{
+    width: 20%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: medium;
+    margin-right: 30px;
+    margin-top: 8px;
+    /* border:2px solid red; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+.display{
+    width:20%;
+    height: 80%;
+    margin-left: 10%;
+        /* border: 2px solid red; */
+    float: left;
+}
+.display2{
+    width: 60%;
+    height: 45%;
+    margin: auto;
+    /* border: 2px solid yellow; */
+    text-align: center;
+}
+.b1{
+    text-decoration: none;
+    width: 100%;
+    color:white;
+    background-color: black;
+    min-width: 40%;
+    max-width: 60%;
+}

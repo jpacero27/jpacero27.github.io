@@ -1,0 +1,196 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jacqueline Acero">       
+        <title>SE Boot Camp Assignment 1</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="module.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="nav.css">
+    </head>
+
+    <body>
+        <div class="firstMain"> 
+            <div class="firstBox">
+                <div class="longBox">
+                    <div class="smallerLongBox">
+                        Knitters
+                     </div>
+
+                     <div class="extraBox">
+                        <button class="toggle-btn" onclick="navbarShow()">☰</button>
+                        <div class="navbar collapse" id="navbarV">
+                            <a class="navLink" href="#">Home</a>
+                            <a class="navLink" href="#">About</a>
+                            <a class="navLink" href="#">Services</a>
+                            <a class="navLink" href="#">Contact</a>
+                        </div>
+
+                        <div class="login" >
+                        <a href="#loginModule"  style="color: White;">Login</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="wordBox">
+                    Creativity and Peace
+                    <H4>Find Your Passion</H4>
+                   
+                </div>
+            </div>
+            <div class="secondBox" id="second">
+                <p class="p1">Friendly projects for beginners! </p>
+                <br>
+                <div class="miniBox1">
+                    <div class="imgBox">
+                        <img src="images/img1.jpg" alt=""class="img1">
+                    </div>
+                <div class="textBox">
+                    <h2>Halloween Ghost</h2>
+                    <p>This little ghost with orange witch hat </p>
+                    <a href="#mydisplaybox">MORE</a>
+                </div>
+                </div>
+                <div class="miniBox1">
+                    <div class="imgBox">
+                     <img src="images/img2.jpg" alt=""class="img2">
+                    </div>
+                   
+                    <div class="textBox">
+                        <h2>Crochet Bull</h2>
+                        <p>This little bull is a fun little crochet gift  </p>
+                        <a href="#mydisplaybox2">MORE</a>
+                    </div>
+                        
+                </div>
+                <div class="miniBox1">
+                    <div class="imgBox">
+                        <img src="images/img3.jpg" alt=""class="img3">
+                    </div>
+                    <div class="textBox">    
+                        <h2>Baby Yoda</h2></div>
+                     <p>
+                        This little baby crochet yoda
+                     </p>   
+                     <a href="#mydisplaybox3">MORE</a>
+                    </div>
+             </div>
+        </div>  
+
+
+        <!-- Modal -->
+        <div class="mdlwindow" id="mydisplaybox">
+            <div class="msgbox">
+                <div class="minidiv">
+                <a class="exit" href="#second">x</a>
+                </div>
+                <div class="biggermsgbox">
+                <div class="bmsgimg">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+                <div class="txtmsgbox">
+                    <h3 style="color: Orange;">Halloween Ghost</h3>
+                    <hr>
+                    <p>This little ghost with orange witch hat is a beginner friendly project. Fun to make especially around Fall seasons. </p>
+                    <p>Get instant step by step instructions!  </p>
+                    <p>$9.99</p>
+                </div>
+                </div>
+                <div class="undermsgbox">
+                <p> Enter how many items you would like to purchase?</p>
+                    <input type="number" id="numItem1" value="1" min="1" size="20px">
+                    <a href=""> <button type="button" name="b1" style="font-size:10px;" onclick="check1()"> ADD TO BAG</button> </a>
+                </div>
+            </div>
+            </div>
+        
+            <!-- Module 2 -->
+        
+            <div class="mdlwindow" id="mydisplaybox2">
+                <div class="msgbox">
+                    <div class="minidiv">
+                    <a class="exit" href="#myfirst">x</a>
+                    </div>
+                    <div class="biggermsgbox">
+                    <div class="bmsgimg">
+                        <img src="images/img2.jpg" alt="">
+                    </div>
+                    <div class="txtmsgbox">
+                        <h3 style="color: black;" > Crochet Bull</h3>
+                        <hr>
+                        <p>This little bull is a fun little crochet gift. It is a intermediate project. Fun to make especially as a gift. </p>
+                        <p>Get instant step by step instructions!  </p>
+                        <p>$14.99</p>
+                    </div>
+                    </div>
+                    <div class="undermsgbox">
+                    <p> Enter how many items you would like to purchase?</p>
+                        <input type="number" id="numItem2" value="1" min="1"> 
+                        <a href=""> <button type="button" name="b2" style="font-size:10px;" onclick="check2()"> ADD TO BAG</button> </a>
+                    </div>
+                </div>
+                </div>
+
+             <!-- Module 3 -->
+        
+            <div class="mdlwindow" id="mydisplaybox3">
+                <div class="msgbox">
+                    <div class="minidiv">
+                    <a class="exit" href="#myfirst">x</a>
+                    </div>
+                    <div class="biggermsgbox">
+                    <div class="bmsgimg">
+                        <img src="images/img3.jpg" alt="">
+                    </div>
+                    <div class="txtmsgbox">
+                        <h3 style="color: green;" > Baby Yoda</h3>
+                        <hr>
+                        <p>This little baby crochet yoda is a fun little crochet gift. It is a Advance project. Any star war fan perfect gift! </p>
+                        <p>Get instant step by step instructions!  </p>
+                        <p>$19.99</p>
+                    </div>
+                    </div>
+                    <div class="undermsgbox">
+                    <p> Enter how many items you would like to purchase?</p>
+                        <input type="number" id="numItem3" value="1" min="1"> 
+                        <a href=""> <button type="button" name="button" style="font-size:10px;" onclick="check3()"> ADD TO BAG</button> </a>
+                    </div>
+                </div>
+                </div>
+
+    <!-- logiiiinnnn -->
+
+     <div class="mainBox2" id="loginModule">
+        <div class="minidiv">
+            <a class="exit" href="" style="color:white;  background-color:rgb(37, 50, 50);" >x</a>
+            </div>
+        <div class="mainChoiceBox">
+            <div class="choiceBox1">
+                Sign Up
+            </div>
+            <div class="choiceBox2">
+                Login
+            </div>
+
+        </div>
+       <div class="smallerBox">Sign Up for Free</div> 
+        <div class="loginBox">
+            <input type="firstName" name="firstName"  placeholder="First Name*" required  class="smaller">
+            <input type="lastName" name="lastName" placeholder="Last Name*" required class="smaller">
+
+            <input type="email" name="email" placeholder="Email*" required class="long">
+            <input type="password" name="password" placeholder="Set a Password*" class="long">
+
+        </div>
+        <div class="submit">
+            GET STARTED
+        </div>
+     </div>
+ 
+
+    </body>
+     <script src="index.js"></script>
+    
+</html>
