@@ -6,9 +6,9 @@ function Footer() {
       <div>
         {/* Navigation Links */}
         <nav>
-          <a href="#home" style={{ margin: "0 15px", color: "white", textDecoration: "none" }}>Home</a>
-          <a href="#about" style={{ margin: "0 15px", color: "white", textDecoration: "none" }}>About</a>
-          <a href="#contact" style={{ margin: "0 15px", color: "white", textDecoration: "none" }}>Contact</a>
+          <a href="#" style={{ margin: "0 15px", color: "white" }}>Home</a>
+          <a href="#" style={{ margin: "0 15px", color: "white" }}>About</a>
+          <a href="#" style={{ margin: "0 15px", color: "white" }}>Contact</a>
         </nav>
       </div>
       

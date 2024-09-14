@@ -9,18 +9,7 @@ function findYeartoPermit(userAge,currentYear)
     console.log(result);
     return {left, result};
 }
-// function getValue(userAge,currentYear)
-// {
 
-//   return document.getElementById('year');
-// }
-
-// const userInput=prompt("Enter your birth year");
-
-// const dateInfo=new Date;
-// const currentYear=dateInfo.getFullYear();
-// const userAge=currentYear-Number(userInput);
-// const userInput=getValue(userAge,currentYear);
 function updateStr(userAge,currentYear){
   let str=" ";
   if( userAge>17)
@@ -49,7 +38,7 @@ function Header()
     <header title="smth here" > 
     <input type="Text" placeholder="Enter your birth year" id="year" value={userInput} onChange={(e) => setUserInput(e.target.value)}></input>
     <button onClick={handleSubmit} >Submit</button>
-    <h1 contentEditable='true' style={{ backgroundColor: "red" }}>
+    <h1 contentEditable='true' style={{ backgroundColor: "lightblue" }}>
       {message}
     </h1>
     </header>
