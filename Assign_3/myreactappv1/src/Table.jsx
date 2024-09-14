@@ -2,8 +2,8 @@
 function createTable(){
     const header=['Month','Day','Time','Dmv Staff'];
     const data = [
-        { Month: "January", Day: "Monday", Time: "10:00 AM", Staff: "John" },
-        { Month: "February", Day: "Tuesday", Time: "11:00 AM", Staff: "Doe" }
+        { Month: "January", Day: "Monday", Time: "10:00 AM", Staff: "John Doe" },
+        { Month: "May", Day: "Wednesday", Time: "11:00 AM", Staff: "Jane Smith" }
       ];
     
     return(
